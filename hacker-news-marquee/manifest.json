@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Hacker News Marquee",
+  "version": "1.0",
+  "description": "Wrap Hacker News titles in a marquee HTML element.",
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": [
+        "https://news.ycombinator.com/*"
+      ]
+    }
+  ]
+}
